@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "RemindMe",
-  description: "Created by: @CodeWithKliton",
+  description: "RemindMe app",
 };
 
 export default function RootLayout({
