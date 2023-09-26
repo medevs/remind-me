@@ -27,6 +27,7 @@ import {
 import { deleteCollection } from "@/actions/collection";
 import { toast } from "./ui/use-toast";
 import { useRouter } from "next/navigation";
+import CreateTaskDialog from "./createTaskDialog";
 
 interface Props {
   collection: Collection & {
@@ -72,6 +73,11 @@ function CollectionCard({ collection }: Props) {
   return (
     <>
       {/* CreateTaskDialog */}
+      <CreateTaskDialog
+        open={showCreateModal}
+        setOpen={setShowCreateModal}
+        collection={collection}
+      />
 
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
         <CollapsibleTrigger asChild>
