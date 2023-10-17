@@ -73,7 +73,6 @@ function CollectionCard({ collection }: Props) {
 
   return (
     <>
-      {/* CreateTaskDialog */}
       <CreateTaskDialog
         open={showCreateModal}
         setOpen={setShowCreateModal}
