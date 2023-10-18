@@ -30,11 +30,11 @@ exports.Prisma = Prisma
 exports.$Enums = {}
 
 /**
- * Prisma Client JS version: 5.3.1
+ * Prisma Client JS version: 5.4.2
  * Query Engine version: 61e140623197a131c2a6189271ffee05a7aa9a59
  */
 Prisma.prismaVersion = {
-  client: "5.3.1",
+  client: "5.4.2",
   engine: "61e140623197a131c2a6189271ffee05a7aa9a59"
 }
 
@@ -157,13 +157,13 @@ const config = {
     "schemaEnvPath": "../../../.env"
   },
   "relativePath": "../..",
-  "clientVersion": "5.3.1",
+  "clientVersion": "5.4.2",
   "engineVersion": "61e140623197a131c2a6189271ffee05a7aa9a59",
   "datasourceNames": [
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
