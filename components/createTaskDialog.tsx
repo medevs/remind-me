@@ -1,5 +1,5 @@
 "use client";
-import { Collection } from "@prisma/client";
+import type { Collection } from "@prisma/client";
 import React from "react";
 import {
   Dialog,
